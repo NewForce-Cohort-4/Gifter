@@ -37,6 +37,15 @@ namespace Gifter
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
+                // Do not block requests while in development
+                app.UseCors(options =>
+                {
+                    options.AllowAnyOrigin();
+                    options.AllowAnyMethod();
+                    options.AllowAnyHeader();
+                });
+
             }
 
             app.UseHttpsRedirection();

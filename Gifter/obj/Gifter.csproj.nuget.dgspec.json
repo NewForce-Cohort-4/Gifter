@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\newforce\\workspace\\C4\\server-side\\DogGo\\Gifter\\Gifter\\Gifter\\Gifter.csproj": {}
+    "C:\\Users\\newforce\\workspace\\C4\\server-side\\Gifter\\Gifter\\Gifter\\Gifter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\newforce\\workspace\\C4\\server-side\\DogGo\\Gifter\\Gifter\\Gifter\\Gifter.csproj": {
+    "C:\\Users\\newforce\\workspace\\C4\\server-side\\Gifter\\Gifter\\Gifter\\Gifter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\newforce\\workspace\\C4\\server-side\\DogGo\\Gifter\\Gifter\\Gifter\\Gifter.csproj",
+        "projectUniqueName": "C:\\Users\\newforce\\workspace\\C4\\server-side\\Gifter\\Gifter\\Gifter\\Gifter.csproj",
         "projectName": "Gifter",
-        "projectPath": "C:\\Users\\newforce\\workspace\\C4\\server-side\\DogGo\\Gifter\\Gifter\\Gifter\\Gifter.csproj",
+        "projectPath": "C:\\Users\\newforce\\workspace\\C4\\server-side\\Gifter\\Gifter\\Gifter\\Gifter.csproj",
         "packagesPath": "C:\\Users\\newforce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\newforce\\workspace\\C4\\server-side\\DogGo\\Gifter\\Gifter\\Gifter\\obj\\",
+        "outputPath": "C:\\Users\\newforce\\workspace\\C4\\server-side\\Gifter\\Gifter\\Gifter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.Data.SqlClient": {
               "target": "Package",
@@ -82,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
