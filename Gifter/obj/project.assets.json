@@ -1,7 +1,22 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
+      "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.7.1"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2322,6 +2337,21 @@
     }
   },
   "libraries": {
+    "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.6": {
+      "sha512": "m69AyXr3RgSufAdfPxpCFi4DPNPfbTDwamZYQvaU9o/3ii1tAK/J2CaLPWnbYtvPfkiyFOYRk3EqTzdy51XDcA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/5.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.5.0.6.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "sha512": "Y4rs5aMEXY8G7wJo5S3EEt6ltqyOTr/qOeZzfn+hw/fuQj5GppGckMY5psGLETo1U9hcT5MmAhaT5xtusM1b5g==",
       "type": "package",
@@ -7575,7 +7605,8 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.6",
       "Microsoft.Data.SqlClient >= 2.1.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0-preview1.19506.2",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.0-preview1.19506.2",
@@ -7604,15 +7635,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -7623,9 +7654,13 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[5.0.6, )"
+          },
           "Microsoft.Data.SqlClient": {
             "target": "Package",
             "version": "[2.1.2, )"
@@ -7679,7 +7714,7 @@
       "message": "Microsoft.VisualStudio.Web.CodeGeneration.Templating 3.1.0-preview1-19509-03 depends on Microsoft.CodeAnalysis.CSharp (>= 3.4.0-beta2-19477-01) but Microsoft.CodeAnalysis.CSharp 3.4.0-beta2-19477-01 was not found. An approximate best match of Microsoft.CodeAnalysis.CSharp 3.4.0-beta2-final was resolved.",
       "libraryId": "Microsoft.CodeAnalysis.CSharp",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net5.0"
       ]
     },
     {
@@ -7689,7 +7724,7 @@
       "message": "Microsoft.VisualStudio.Web.CodeGeneration.Utils 3.1.0-preview1-19509-03 depends on Microsoft.CodeAnalysis.CSharp.Workspaces (>= 3.4.0-beta2-19477-01) but Microsoft.CodeAnalysis.CSharp.Workspaces 3.4.0-beta2-19477-01 was not found. An approximate best match of Microsoft.CodeAnalysis.CSharp.Workspaces 3.4.0-beta2-final was resolved.",
       "libraryId": "Microsoft.CodeAnalysis.CSharp.Workspaces",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net5.0"
       ]
     }
   ]
