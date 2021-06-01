@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qos8n+tm3buhxPqJV0mYSSddkmL6hLPuLF8qoUAzWGUVUVRvHZLVZ/Jd3EqaEnHoU62AdWfdmJu8zD/KwBkmwQ==",
+  "dgSpecHash": "GAXnfCMrHNkTKbomca+bHY3SSxZdD3GUMy8/j7rGvq5PVx+9UdkyCaTj/QdAskwSbZmuGxuwYZbY0OHM+V114w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\newforce\\workspace\\C4\\server-side\\Gifter\\Gifter\\Gifter\\Gifter.csproj",
+  "projectFilePath": "C:\\Users\\newforce\\workspace\\cohort-four\\server-side\\Gifter\\Gifter\\Gifter.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
